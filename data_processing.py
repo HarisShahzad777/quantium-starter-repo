@@ -3,7 +3,7 @@ import os
 
 data_directory = './data'
 
-with open('data/daily_sales_formatted.csv', mode='w', newline='') as csv_file:
+with open('daily_sales_formatted.csv', mode='w', newline='') as csv_file:
     fieldnames = ['sales', 'date', 'region']
     csv_writer = csv.writer(csv_file)
     csv_writer.writerow(fieldnames)
